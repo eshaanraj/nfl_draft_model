@@ -1,27 +1,38 @@
-# nfl_draft_model
-# 🏈 NFL Draftability Prediction Model
+# NFL Draftability Prediction Model
 
-This project predicts whether a college football player will be **drafted** or **not drafted** into the NFL based on their **NFL Combine performance metrics**.  
-
-Using historical combine data and machine learning, the model explores how measurable athletic performance correlates with draft outcomes.  
+This project predicts whether a college football player will be **drafted** or **not drafted** into the NFL using their **NFL Combine performance metrics**.  
+It demonstrates applied machine learning with real sports data, feature engineering, and model evaluation.
 
 ---
 
-This project uses the dataset:
-NFL Combine Performance Data (2009–2019) by redlineracer
-📊 Available on Kaggle
+## Try It Yourself
 
-Contains player combine results (40-yard dash, bench press, vertical jump, etc.) and draft outcomes.
+Click below to run the notebook interactively in Google Colab:  
 
-Data spans 2009 to 2019 NFL Drafts.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/eshaanraj/nfl_draft_model/blob/main/nfl_draftability.ipynb)
 
-Licensed and shared publicly on Kaggle.
 ---
 
-## 📖 Project Overview
+## Project Overview
 
-- **Goal**: Predict whether a player will be drafted into the NFL.  
-- **Inputs**: Player combine metrics (e.g., 40-yard dash, bench press, vertical jump, shuttle times, height, weight).  
-- **Output**: Binary classification → **Drafted (Yes)** or **Not Drafted (No)**.  
-- **Methods**: Supervised machine learning models (logistic regression, random forest, or XGBoost — see notebook).  
-- **Why**: Demonstrates how data science can provide insights into professional scouting and draft outcomes.  
+- **Goal**: Predict draftability of players from NFL Combine data.  
+- **Inputs**: Combine metrics (40-yard dash, bench press, vertical jump, shuttle times, height, weight, etc.).  
+- **Output**: Binary classification → `Drafted` (Yes) or `Not Drafted` (No).  
+- **Methods**: Decision Tree and Random Forest classifiers.  
+- **Why it matters**: Shows how measurable athletic performance correlates with draft outcomes, and illustrates how ML can support sports analytics.
+
+---
+
+## How to Run
+
+### Option A — In Colab (easiest)
+1. Open the notebook using the badge above.  
+2. Upload the dataset CSV when prompted (`NFL.csv`).  
+3. Run all cells.
+
+### Option B — Locally
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/eshaanraj/nfl_draft_model.git
+   cd nfl_draft_model
