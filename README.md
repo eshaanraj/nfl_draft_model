@@ -62,6 +62,6 @@ https://colab.research.google.com/github/eshaanraj/nfl_draft_model/blob/main/nfl
 This project uses the dataset:
 NFL Combine Performance Data (2009–2019) by redlineracer
 Available on Kaggle
-# Contains player combine results (40-yard dash, bench press, vertical jump, etc.) and draft outcomes.
-# Data spans 2009–2019 NFL Drafts.
-# Licensed and shared publicly on Kaggle.
+- Contains player combine results (40-yard dash, bench press, vertical jump, etc.) and draft outcomes.
+- Data spans 2009–2019 NFL Drafts.
+- Licensed and shared publicly on Kaggle.
